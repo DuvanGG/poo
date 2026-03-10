@@ -39,7 +39,7 @@ public class SaturnoV extends Shuttle {
 	}
 	
 	public void launch(double cargaTon) {
-		System.out.printf("toneladas a órbita baja terrestre%n", getName(), cargaTon);
+		System.out.printf("%s: %.2f toneladas a órbita baja terrestre%n", getName(), cargaTon);
 		if (cargaTon <= capacity) {
 			System.out.println("Carga dentro de límites operativos");
 		} else {

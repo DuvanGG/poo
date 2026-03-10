@@ -22,6 +22,10 @@ public class ISS extends MannedSpacecraft{
 
 	@Override
 	public String getFuel() {
+		return "N/A";
+	}
+	
+	public String getEnergySource() {
 		return energy;
 	}
 
@@ -30,7 +34,7 @@ public class ISS extends MannedSpacecraft{
         System.out.printf("TRIPULADA: %s | Empuje: %.1f ton | Peso: %.0f ton%n", 
                          getName(), getPush(), weight);
         System.out.printf("   → Capacidad: %d pers | Altitud: %.0f km | %s%n", 
-        		capacity, altitude, getFuel());
+        		capacity, altitude, getEnergySource());
         System.out.println("   → NASA/Rusia/Japón/Canadá/Europa - Activa 1998");
     }
 
