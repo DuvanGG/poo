@@ -47,4 +47,10 @@ public class CassiniHuygens extends RoboticShip {
         System.out.println(getName() + " explorando de forma autónoma con sensores.");
     }
 
+	@Override
+	public void executeMission() {
+		explore();
+		
+	}
+
 }

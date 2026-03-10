@@ -10,6 +10,6 @@ public interface ISpacecraft {
 	
 	void showInfo();
 	
+	void executeMission(); 
 	
-
 }

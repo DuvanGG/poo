@@ -47,4 +47,9 @@ public class SaturnoV extends Shuttle {
 		}
 	}
 
+	@Override
+	public void executeMission() {
+		launch();
+	}
+
 }

@@ -42,9 +42,7 @@ public class App {
 			if (scObj != null) {
 				scObj.showInfo();
 				System.out.println("  - Name: " + scObj.getName() + " | Push: " + scObj.getPush() + " | Fuel: " + scObj.getFuel());
-				if (scObj instanceof IExplorer) {
-					((IExplorer) scObj).explore();
-				}
+				scObj.executeMission();
 			}
 		}
 		scanner.close();

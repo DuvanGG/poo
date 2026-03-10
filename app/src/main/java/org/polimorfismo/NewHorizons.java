@@ -47,4 +47,10 @@ public class NewHorizons extends RoboticShip {
         System.out.println(getName() + " explorando con sistemas autónomos en el espacio profundo.");
     }
 
+	@Override
+	public void executeMission() {
+		explore();
+		
+	}
+
 }

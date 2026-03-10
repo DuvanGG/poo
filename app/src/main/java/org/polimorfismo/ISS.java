@@ -44,5 +44,10 @@ public class ISS extends MannedSpacecraft{
         System.out.println("   → Rotación: " + capacity + " astronautas / 6 meses");
     }
 
+	@Override
+	public void executeMission() {
+		conductExperiment(); 
+	}
+
 
 }
